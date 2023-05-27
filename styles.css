@@ -1,0 +1,122 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html{
+  font-size: 15px;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+ display: flex;
+ justify-content:center;
+ align-items: center;
+
+}
+.box{
+  background-color: blueviolet;
+  width: 80rem;
+  height: 42rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 2.5rem;
+  column-gap: 30px;
+  row-gap: 20px;
+  
+}
+
+.card{
+  background-color: chocolate;
+  border: 2px solid white  ;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+ height:20rem ;
+}
+
+.card-one img{
+  width:6rem;
+  height: 6rem;
+border-radius: 4rem;
+}
+.card-one h1{
+  padding: 1rem;
+  line-height: 1.5rem;
+  color: white;
+}
+.card-one p{
+  padding: 1rem;
+  line-height: 1.5rem;
+  color: white;
+}
+
+.card-two img{
+width:6rem;
+height: 6rem;
+border-radius: 4rem;
+}
+.card-two h1{
+  padding: 1rem;
+  line-height: 1.5rem;
+  color: white;
+}
+.card-two p{
+  padding: 1rem;
+  line-height: 1.5rem;
+  color: white;
+}
+.card-three{
+  grid-column:3/4;
+  grid-row: 1/4;
+}
+
+.card-three img{
+  width:6rem;
+  height: 6rem;
+  border-radius: 4rem;
+  }
+  .card-three h1{
+    padding: 1rem;
+    line-height: 1.5rem;
+    color: white;
+  }
+  .card-three p{
+    padding: 1rem;
+    line-height: 1.5rem;
+    color: white;
+  }
+.card-four{
+  grid-column:1/4;
+grid-row:2/3 ;
+}
+.card-four img{
+  width:6rem;
+  height: 6rem;
+  border-radius: 4rem;
+  }
+  .card-four h1{
+    padding: 1rem;
+    line-height: 1.5rem;
+    color: white;
+  }
+  .card-four p{
+    padding: 1rem;
+    line-height: 2rem;
+    color: white;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
